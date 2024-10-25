@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -7,9 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-
 import CreateUserForm from "./forms/CreateuserForm";
-import { useState } from "react";
 
 const CreateUser = () => {
   const [open, setOpen] = useState(false);

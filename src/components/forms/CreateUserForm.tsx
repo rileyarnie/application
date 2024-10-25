@@ -11,15 +11,6 @@ import SubmitButton from "../ui/SubmitButton";
 import { useState } from "react";
 import { BASE_URL, BASIC_AUTH } from "@/lib/constants";
 
-// {
-//     "token": "",
-//     "payload": {
-//         "usrFirstname": "LEWIS",
-//         "usrLastname": "HAMILTON",
-//         "usrUsername": "EXT-SLH44"
-//     }
-// }
-
 interface Iprops {
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
