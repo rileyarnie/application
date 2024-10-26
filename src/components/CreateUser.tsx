@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import CreateUserForm from "./forms/CreateuserForm";
+import CreateUserForm from "./forms/CreateUserForm";
 
 const CreateUser = () => {
   const [open, setOpen] = useState(false);
